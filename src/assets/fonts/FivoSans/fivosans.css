@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'fivosans';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./FivoSans-Bold.otf");
+}
+
+@font-face {
+  font-family: 'fivosans';
+  font-style: normal;
+  font-weight: 500;
+  src: url("./FivoSans-Medium.otf");
+}
+
+@font-face {
+  font-family: 'fivosans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./FivoSans-Regular.otf");
+}
+
+@font-face {
+  font-family: 'fivosans';
+  font-style: normal;
+  font-weight: 300;
+  src: url("./FivoSans-Light.otf");
+}
+
+@font-face {
+  font-family: 'fivosans';
+  font-style: oblique;
+  font-weight: 400;
+  src: url("./FivoSans-Oblique.otf");
+}
