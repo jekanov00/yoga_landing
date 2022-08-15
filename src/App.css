@@ -3,3 +3,113 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'fivosans';
+  background-color: #eceff1;
+  color: #3B3838;
+}
+
+.button {
+  outline: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: transparent;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  box-shadow: -5px 8px 25px -5px rgba(255,106,109,0.8);
+}
+
+.topBar {
+  display: flex;
+  padding: 85px 245px;
+  line-height: 47px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ff6a6d;
+  margin-left: 11px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  width: 473px;
+}
+
+.nav__item {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.nav__item_active {
+  font-weight: 700;
+  color: #ff6a6d;
+  font-size: 110%;
+}
+
+.login {
+  margin-left: 124px;
+}
+
+.login__button {
+  background-color: #ff6a6d;
+  padding: 13px 47px;
+}
+
+.welcome {
+  margin-left:370px;
+  padding-top: 250px;
+  max-width: 538px;
+}
+
+.welcome .title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 65px;
+}
+
+.welcome .text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 35px;
+  margin-bottom: 69px;
+}
+
+.welcome .service {
+  background-color: #ff6a6d;
+  padding: 30px 90px;
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.welcome .signup {
+  border: 1px solid #ff6a6d;
+  padding: 30px 87px;
+  color: #ff6a6d;
+  font-size: 20px;
+}
+
+.header {
+  background: url('./assets/images/header_bg.png') no-repeat center;
+  background-size: cover;
+  min-height: 1463px;
+}
