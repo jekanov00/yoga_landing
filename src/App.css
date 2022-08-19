@@ -7,7 +7,7 @@
 body {
   font-family: 'fivosans';
   background-color: #fbfcfc;
-  color: #3b3838;
+  color: rgba(0, 0, 0, 0.65);
 }
 
 body::before {
@@ -46,6 +46,7 @@ h1 {
   font-size: 45px;
   font-weight: 700;
   line-height: 50px;
+  color: #3B3838;
 }
 
 p {
@@ -163,6 +164,7 @@ p {
   font-size: 22px;
   font-weight: 700;
   padding-top: 90px;
+  color: #3B3838;
 }
 
 .chooseCard__text {
@@ -176,7 +178,7 @@ p {
 }
 
 .whats {
-  padding-bottom: 450px;
+  padding-bottom: 150px;
   padding-top: 300px;
   overflow: hidden;
   position: relative;
@@ -187,7 +189,7 @@ p {
   position: absolute;
   bottom: 550px;
   left: -50px;
-  background: url('./assets/images/leaf_left.png') no-repeat;
+  background: url('./assets/images/whats_leaf.png') no-repeat;
   width: 229px;
   height: 377px;
   z-index: -1;
@@ -198,7 +200,7 @@ p {
   position: absolute;
   top: 120px;
   right: -150px;
-  background: url('./assets/images/cloud_right.png') no-repeat;
+  background: url('./assets/images/whats_cloud.png') no-repeat;
   width: 300px;
   height: 488px;
   z-index: -1;
@@ -215,7 +217,7 @@ p {
   position: absolute;
   top: 0;
   left: -800px;
-  background: url('./assets/images/yoga_1.png') no-repeat;
+  background: url('./assets/images/whats_yoga.png') no-repeat;
   width: 701px;
   height: 655px;
   z-index: -1;
@@ -239,9 +241,76 @@ p {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 23px;
+  color: rgba(0, 0, 0, 0.749);
 }
 
 .whatsList__item_text {
   margin-bottom: 57px;
   line-height: 35px;
+}
+
+.healing {
+  padding-bottom: 400px;
+  padding-top: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.healing::before {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  left: -132px;
+  background: url('./assets/images/healing_cloud.png') no-repeat;
+  z-index: -1;
+  width: 351px;
+  height: 445px;
+}
+
+.healingContainer {
+  margin-left: 313px;
+  width: 30vw;
+  position: relative;
+}
+
+.healingContainer::before {
+  content: '';
+  position: absolute;
+  top: -115px;
+  right: -795px;
+  background: url('./assets/images/healing_yoga.png') no-repeat;
+  z-index: -1;
+  width: 661px;
+  height: 640px;
+}
+
+.healing__title {
+  margin-top: 17px;
+}
+
+.healing__author {
+  font-style: oblique;
+  font-size: 19px;
+  opacity: 0.5;
+}
+
+.healing__text {
+  margin: 80px 0 83px 55px;
+  width: 380px;
+  line-height: 40px;
+}
+
+.healing__link {
+  color: #3CBEF1;
+  text-decoration: none;
+  outline: none;
+  margin-left: 55px;
+}
+
+.healing__link:focus {
+  outline: none;
+}
+
+.healing__link:hover {
+  text-decoration: underline;
 }

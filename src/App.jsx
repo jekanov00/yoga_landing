@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './App.css';
 import choose_time from './assets/images/choose_time.png';
 import choose_phone from './assets/images/choose_phone.png';
@@ -67,7 +68,6 @@ function App() {
           </div>
         </article>
         <article className="whats">
-          {/* сделать фотки через ::before */}
           <div className="whatsContainer">
             <h1 className="whats__title">What&#8217;s on BerYoga?</h1>
             <ul className="whatsList">
@@ -95,8 +95,21 @@ function App() {
             </ul>
           </div>
         </article>
-        <article className="healing"></article>
-        <article className="ways"></article>
+        <article className="healing">
+          <div className="healingContainer">
+            <p className="healing__author">By Brittany Risherjan _____</p>
+            <h1 className="healing__title">The Healing Power of Trauma-Informed Yoga Classes.</h1>
+            <p className="healing__text">
+              Celebrating five years of service, the nonprofit Exhale to Inhale brings free,
+              trauma-informed yoga classes to rape crisis centers and domestic violence shelters in
+              Jakarta.
+            </p>
+            <a className='healing__link' href="#">Read More &#62;</a>
+          </div>
+        </article>
+        <article className="ways">
+          <div className='waysContainer'></div>
+        </article>
       </main>
       <footer className="footer"></footer>
     </div>
