@@ -133,7 +133,6 @@ p {
 
 .choose {
   margin-top: 50px !important;
-  padding-bottom: 300px;
   margin: 0 17vw;
 }
 
@@ -178,11 +177,48 @@ p {
 
 .whats {
   padding-bottom: 450px;
+  padding-top: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.whats::before {
+  content: '';
+  position: absolute;
+  bottom: 550px;
+  left: -50px;
+  background: url('./assets/images/leaf_left.png') no-repeat;
+  width: 229px;
+  height: 377px;
+  z-index: -1;
+}
+
+.whats::after {
+  content: '';
+  position: absolute;
+  top: 120px;
+  right: -150px;
+  background: url('./assets/images/cloud_right.png') no-repeat;
+  width: 300px;
+  height: 488px;
+  z-index: -1;
 }
 
 .whatsContainer {
   margin-left: 55vw;
   margin-right: 15vw;
+  position: relative;
+}
+
+.whatsContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -800px;
+  background: url('./assets/images/yoga_1.png') no-repeat;
+  width: 701px;
+  height: 655px;
+  z-index: -1;
 }
 
 .whats__title {
