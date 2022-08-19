@@ -104,11 +104,31 @@ function App() {
               trauma-informed yoga classes to rape crisis centers and domestic violence shelters in
               Jakarta.
             </p>
-            <a className='healing__link' href="#">Read More &#62;</a>
+            <a className="healing__link readMore" href="#">
+              Read More &#62;
+            </a>
           </div>
         </article>
         <article className="ways">
-          <div className='waysContainer'></div>
+          <div className="waysContainer">
+            <h1 className="ways__title">
+              5 Ways to Make Every Yoga Class More Restorative and Therapeutic
+            </h1>
+            <p className="ways__text">
+              In part four of our series on teaching trauma-sensitive yoga, teacher Daniel Sernicola
+              shares five practices to help your students get grounded and cultivate mindfulness.
+            </p>
+            <p className="ways__text">
+              Teachers, need liability insurance? As a TeachersPlus member, you can access low-cost
+              coverage and more than a dozen valuable benefits that will build your skills and
+              business. Enjoy a free subscription to YJ, a free profile on our national directory,
+              exclusive webinars and content packed with advice, discounts on educational resources
+              and gear, and more
+            </p>
+            <a className="ways__link readMore" href="#">
+              Read More &#62;
+            </a>
+          </div>
         </article>
       </main>
       <footer className="footer"></footer>

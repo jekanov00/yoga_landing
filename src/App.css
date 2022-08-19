@@ -46,7 +46,7 @@ h1 {
   font-size: 45px;
   font-weight: 700;
   line-height: 50px;
-  color: #3B3838;
+  color: #3b3838;
 }
 
 p {
@@ -164,7 +164,7 @@ p {
   font-size: 22px;
   font-weight: 700;
   padding-top: 90px;
-  color: #3B3838;
+  color: #3b3838;
 }
 
 .chooseCard__text {
@@ -301,16 +301,86 @@ p {
 }
 
 .healing__link {
-  color: #3CBEF1;
-  text-decoration: none;
-  outline: none;
   margin-left: 55px;
 }
 
-.healing__link:focus {
+.readMore {
+  color: #3cbef1;
+  text-decoration: none;
+  outline: none;
+  font-style: oblique;
+}
+
+.readMore:focus {
   outline: none;
 }
 
-.healing__link:hover {
+.readMore:hover {
   text-decoration: underline;
+}
+
+.ways {
+  padding-top: 300px;
+  padding-bottom: 50px;
+  position: relative;
+  top: -334px;
+  overflow: hidden;
+}
+
+.ways::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -110px;
+  background: url('./assets/images/ways_cloud.png') no-repeat;
+  z-index: -1;
+  width: 304px;
+  height: 487px;
+}
+
+.ways::after {
+  content: '';
+  position: absolute;
+  top: 168px;
+  right: -68px;
+  background: url('./assets/images/ways_leaf.png') no-repeat;
+  z-index: -1;
+  width: 262px;
+  height: 431px;
+}
+
+.waysContainer {
+  margin-left: 45vw;
+  margin-right: 370px;
+  position: relative;
+}
+
+.waysContainer::before {
+  content: '';
+  position: absolute;
+  top:29px;
+  left: -700px;
+  background: url('./assets/images/ways_yoga.png') no-repeat;
+  z-index: -1;
+  width: 629px;
+  height: 735px;
+}
+
+.ways__title {
+  margin-left: auto;
+  margin-bottom: 106px;
+}
+
+.ways__text {
+  line-height: 40px;
+  text-indent: 3em;
+  margin-left: 114px;
+}
+
+.ways__text:last-of-type {
+  margin-bottom: 99px;
+}
+
+.ways__link {
+  margin-left: 114px;
 }
