@@ -439,11 +439,13 @@ footer {
 }
 
 .linksBlock__text {
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 17px;
 }
 
 .linksBlock__text + .linksBlock__text {
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 .prices {
