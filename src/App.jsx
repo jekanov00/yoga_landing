@@ -131,7 +131,47 @@ function App() {
           </div>
         </article>
       </main>
-      <footer className="footer"></footer>
+      <footer className="footer">
+        <div className="bgBlue" />
+        <article className="prices">
+        </article>
+        <article className="links">
+          <div className="linksContainer">
+            <div className="linksBlock">
+              <h3 className="linksBlock__title">CONTACT us</h3>
+              <p className="linksBlock__text">
+                Beryoga, Jl. Sudirman no. 129, Tebet Jakarta Selatan
+              </p>
+              <p className="linksBlock__text">
+                beryoga@yuk.com 0812 6824 2856 (Main) (072) 2673842 (Toll-free)
+              </p>
+            </div>
+            <div className="linksBlock">
+              <h3 className="linksBlock__title">About us</h3>
+              <p className="linksBlock__text">Our Mission</p>
+              <p className="linksBlock__text">Our Team</p>
+              <p className="linksBlock__text">Management</p>
+              <p className="linksBlock__text">Policies</p>
+            </div>
+            <div className="linksBlock">
+              <h3 className="linksBlock__title">Our Programs</h3>
+              <p className="linksBlock__text">Yoga Class</p>
+              <p className="linksBlock__text">Bikram Yoga</p>
+              <p className="linksBlock__text">Acro Yoga</p>
+              <p className="linksBlock__text">Sveda Yoga</p>
+              <p className="linksBlock__text">Yo Mama</p>
+            </div>
+            <div className="linksBlock">
+              <h3 className="linksBlock__title">support trails</h3>
+              <p className="linksBlock__text">Donate</p>
+              <p className="linksBlock__text">Individual Membership</p>
+              <p className="linksBlock__text">Gift membership</p>
+              <p className="linksBlock__text">Hiker Store</p>
+            </div>
+          </div>
+          <p className="copyright">Copyright © 2019 BerYoga All rights reserved.</p>
+        </article>
+      </footer>
     </div>
   );
 }
