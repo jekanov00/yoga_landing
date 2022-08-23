@@ -398,7 +398,7 @@ footer {
   width: 2512px;
   height: 2512px;
   border-radius: 50%;
-  bottom: -2100px;
+  top: 0;
   left: -300px;
 }
 
@@ -406,8 +406,8 @@ footer {
   max-width: 1428px;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.5);
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
 }
 
 .linksContainer {
@@ -421,7 +421,7 @@ footer {
 }
 
 .copyright {
-  color: #2E2E2E;
+  color: #2e2e2e;
   opacity: 0.701;
   font-weight: 400;
   letter-spacing: 0.15em;
@@ -444,4 +444,143 @@ footer {
 
 .linksBlock__text + .linksBlock__text {
   margin-top: 20px;
+}
+
+.prices {
+  margin-bottom: 200px;
+  padding-top: 20px;
+}
+
+.pricesContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pricesBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 475px;
+  color: rgba(59, 56, 56, 0.749);
+  box-shadow: -15px 20px 60px 0 rgba(255, 106, 109, 0.3);
+}
+
+.pricesBlock:first-child,
+.pricesBlock:last-child {
+  margin: 36px 0;
+}
+
+.pricesBlock:first-child .pricesBlock__list {
+  margin-top: 74px;
+}
+
+.pricesBlock:nth-child(2) {
+  z-index: 10;
+}
+
+.pricesBlock:nth-child(2) .pricesBlock__button {
+  background: rgba(255, 106, 109, 1);
+}
+
+.pricesBlock__priceBlock {
+  display: flex;
+  margin-top: auto;
+}
+
+.pricesBlock__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 78px;
+  margin-bottom: 57px;
+}
+
+.pricesBlock__best {
+  background-color: rgba(255, 106, 109, 1);
+  text-align: center;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 49px;
+}
+
+.pricesBlock__best_title {
+  font-size: 30px;
+  line-height: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fbfcfc;
+}
+
+.pricesBlock__list {
+  margin-bottom: 68px;
+}
+
+.pricesBlock:last-child .pricesBlock__list {
+  margin-bottom: 44px;
+}
+
+.pricesBlock__listItem {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.pricesBlock__listItem + .pricesBlock__listItem {
+  margin-top: 28px;
+}
+
+.pricesBlock__dollar {
+  font-size: 44px;
+  font-weight: 400;
+  margin-right: 22px;
+}
+
+.pricesBlock__digit {
+  font-size: 140px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.pricesBlock__period {
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-bottom: 22px;
+  margin-top: auto;
+}
+
+.pricesBlock__description {
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.pricesBlock__button {
+  margin: 59px auto 55px;
+  background: rgb(0, 88, 168);
+  background: linear-gradient(
+    15deg,
+    rgba(0, 134, 255, 1) 0%,
+    rgba(142, 199, 251, 1) 60%,
+    rgba(202, 230, 255, 1) 85%
+  );
+  border: none;
+  padding: 33px;
+  border-radius: 50px;
+  text-transform: capitalize;
+  color: #fbfcfc;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.pricesBlock__button:hover {
+  box-shadow: -15px 20px 30px 0 rgba(142, 199, 251, 0.5);
+}
+
+.pricesBlock:nth-child(2) .pricesBlock__button:hover {
+  box-shadow: -15px 20px 30px 0 rgba(255, 106, 109, 0.5);
 }

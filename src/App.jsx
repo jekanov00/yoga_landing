@@ -134,6 +134,53 @@ function App() {
       <footer className="footer">
         <div className="bgBlue" />
         <article className="prices">
+          <div className="pricesContainer">
+            <div className="pricesBlock">
+              <ul className="pricesBlock__list">
+                <li className="pricesBlock__listItem">Unlimited Access Video</li>
+                <li className="pricesBlock__listItem">Saved Videos</li>
+                <li className="pricesBlock__listItem">Offline Access</li>
+              </ul>
+              <div className="pricesBlock__priceBlock">
+                <p className="pricesBlock__dollar">$</p>
+                <p className="pricesBlock__digit">15</p>
+                <p className="pricesBlock__period">/Mo</p>
+              </div>
+              <p className="pricesBlock__description">Billed monthly</p>
+              <button className="pricesBlock__button">Become A Member</button>
+            </div>
+            <div className="pricesBlock">
+              <div className="pricesBlock__best">
+                <h1 className="pricesBlock__best_title">Best Seller</h1>
+              </div>
+              <ul className="pricesBlock__list">
+                <li className="pricesBlock__listItem">Unlimited Access Video</li>
+                <li className="pricesBlock__listItem">Saved Videos</li>
+                <li className="pricesBlock__listItem">Offline Access</li>
+              </ul>
+              <div className="pricesBlock__priceBlock">
+                <p className="pricesBlock__dollar">$</p>
+                <p className="pricesBlock__digit">150</p>
+                <p className="pricesBlock__period">/Year</p>
+              </div>
+              <p className="pricesBlock__description">Billed a one year - Save 45%</p>
+              <button className="pricesBlock__button">Become A Member</button>
+            </div>
+            <div className="pricesBlock">
+              <h2 className="pricesBlock__title">Yoga Class</h2>
+              <ul className="pricesBlock__list">
+                <li className="pricesBlock__listItem">Only Yoga Class </li>
+                <li className="pricesBlock__listItem">Unlimited Access Video</li>
+              </ul>
+              <div className="pricesBlock__priceBlock">
+                <p className="pricesBlock__dollar">$</p>
+                <p className="pricesBlock__digit">5</p>
+                <p className="pricesBlock__period">/Mo</p>
+              </div>
+              <p className="pricesBlock__description">Billed monthly</p>
+              <button className="pricesBlock__button">Become A Member</button>
+            </div>
+          </div>
         </article>
         <article className="links">
           <div className="linksContainer">
