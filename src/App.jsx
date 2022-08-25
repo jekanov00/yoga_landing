@@ -181,6 +181,14 @@ function App() {
               <button className="pricesBlock__button">Become A Member</button>
             </div>
           </div>
+          <i className="footerBrick brick1" />
+          <i className="footerBrick brick2" />
+          <i className="footerBrick brick3" />
+          <i className="footerBrick brick4" />
+          <i className="footerBrick brick5" />
+          <i className="footerBrick brick6" />
+          <i className="footerBrick brick7" />
+          <i className="footerBrick brick8" />
         </article>
         <article className="links">
           <div className="linksContainer">
